@@ -1,0 +1,205 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,500;1,300&display=swap");
+
+* {
+  margin: 0px;
+  padding: 0px;
+  font-family: "Nunito", sans-serif !important;
+}
+/* 5f27cd */
+body {
+  background: rgb(255, 255, 255);
+  /* background: linear-gradient(#a2d4e1, white 100%); */
+  background: linear-gradient(#076780, white 100%);
+}
+
+/* alerts */
+.alert-s{
+  background: #003644 !important;
+  color: #fff !important;
+}
+
+.btn-c{
+  color: #fff !important;
+  background: none !important;
+  border: none !important;
+  box-shadow: none !important;
+  border: none !important;
+  font-size: 1rem;
+}
+
+.alert{
+  border: .1rem solid #fff;
+  border-radius: .5rem;
+}
+
+/* main-div */
+/* #mainDiv {
+  border-radius: 1rem;
+} */
+
+/* header */
+#header {
+  background: #fff !important;
+  border-radius: 1rem;
+  box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 1px, rgba(0, 0, 0, 0.07) 0px 2px 2px, rgba(0, 0, 0, 0.07) 0px 4px 4px, rgba(0, 0, 0, 0.07) 0px 8px 8px, rgba(0, 0, 0, 0.07) 0px 16px 16px;
+}
+
+#heading{
+  color: #003644;
+}
+
+/* form */
+#formDiv {
+  background: #fff;
+  color: #000;
+  border-radius: .5rem;
+  box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px, rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px;
+}
+
+.insertIP {
+  border: none !important;
+  outline: none !important;
+  box-shadow: none !important;
+  border-radius: 0px !important;
+  color: #085f75 !important;
+  border-bottom: .1rem solid #076780 !important;
+  font-size: 1rem;
+  font-weight: 600;
+}
+
+.insertIP:focus{
+  /* box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px !important; */
+  box-shadow: rgba(0, 0, 0, 0.09) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px !important;
+}
+
+.insertIP::placeholder{
+  font-weight: initial !important;
+}
+
+#save {
+  outline: none !important;
+  box-shadow: none !important;
+  color: #fff;
+  background: #076780 !important;
+  font-weight: 600;
+  cursor: pointer;
+  word-spacing: .5rem;
+}
+
+#save:hover {
+  background: #fff !important;
+  color: #076780 !important;
+  border: 1px solid #076780 !important;
+}
+
+/* table */
+
+#myTable {
+  text-align: center !important;
+  color: #fff !important;
+  box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+  
+}
+
+#myTable_length,
+#myTable_filter {
+  font-weight: 600;
+  /* color: #076780 !important; */
+  color: #003644!important;
+  margin-block: 1rem !important;
+}
+
+#myTable_filter input {
+  outline: none !important;
+  border: none !important;
+  border-bottom: .1rem solid #076780 !important;
+  border-radius: 0rem;
+  color: #003644 !important;
+  padding-inline: .4rem !important;
+}
+
+#myTable_filter input:focus{
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px !important;
+}
+
+#myTable_length>label>select {
+  outline: none !important;
+  border: none !important;
+  border-bottom: 2px solid #076780 !important;
+  border-radius: 0% !important;
+  padding-inline: 1.4rem !important;
+  margin-inline: .5rem !important;
+}
+
+#myTable_length>label>select>option{
+  color: #076780 !important;
+  font-weight: 600;
+}
+
+#myTable_info {
+  color: #003644;
+  font-weight: 600;
+}
+
+/* pagination btn */
+#myTable_previous,
+#myTable_next {
+  outline: none !important;
+  box-shadow: none !important;
+  border-radius: .5rem !important;
+  font-weight: 600 !important;
+  cursor: pointer;
+  color: #fff !important;
+  background: #003644 !important;
+  margin-inline: .5rem;
+  margin-block: .5rem;
+}
+
+#myTable_previous:hover,
+#myTable_next:hover {
+  background: #fff !important;
+  color: #003644 !important;
+}
+
+#myTable_paginate>span>a {
+  outline: none !important;
+  box-shadow: none !important;
+  color: #003644 !important;
+  background: #fff !important;
+  cursor: pointer;
+  border-radius: .3rem !important;
+  font-weight: 600 !important;
+  margin-inline: .5rem;
+}
+
+#myTable_paginate>span>a:hover {
+  background: #003644 !important;
+  color: #fff !important;
+  border: 1px solid #fff !important;
+}
+
+/* Modal */
+.modal-content {
+  background: #2C3A47 !important;
+  color: #fff !important;
+}
+
+.insertEdit {
+  border: 2px solid #fff !important;
+  outline: none !important;
+  box-shadow: none !important;
+
+}
+
+#Usave {
+  outline: none !important;
+  box-shadow: none !important;
+  border: 1px solid #fff !important;
+  color: #fff !important;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+#Usave:hover {
+  background: #0b141d !important;
+}
